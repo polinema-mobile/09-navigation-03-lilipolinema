@@ -7,12 +7,16 @@
 
 	<data>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<variable
 			name="fragment"
 			type="id.ac.polinema.skor.fragments.GoalFragment" />
 		<variable
 			name="goalScorer"
 			type="id.ac.polinema.skor.models.GoalScorer" />
+=======
+
+>>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 =======
 
 >>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
@@ -55,7 +59,10 @@
 			android:ems="10"
 			android:inputType="textPersonName"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			android:text="@={goalScorer.name}"
+=======
+>>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 =======
 >>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 			app:layout_constraintEnd_toEndOf="parent"
@@ -69,7 +76,10 @@
 			android:ems="10"
 			android:inputType="numberSigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			android:text="@={`` + goalScorer.minute}"
+=======
+>>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 =======
 >>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 			app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +95,10 @@
 			android:layout_marginBottom="8dp"
 			android:text="Save"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			android:onClick="@{(v) -> fragment.onSaveClicked(v)}"
+=======
+>>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 =======
 >>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 			app:layout_constraintBottom_toBottomOf="parent"
@@ -101,7 +114,10 @@
 			android:layout_marginBottom="8dp"
 			android:text="Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			android:onClick="@{(v) -> fragment.onCancelClicked(v)}"
+=======
+>>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 =======
 >>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 			app:layout_constraintBottom_toBottomOf="parent"

@@ -6,12 +6,17 @@ import android.view.View;
 import android.view.ViewGroup;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
 import id.ac.polinema.skor.R;
 import id.ac.polinema.skor.databinding.FragmentGoalBinding;
+=======
+import androidx.fragment.app.Fragment;
+
+>>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 =======
 import androidx.fragment.app.Fragment;
 
@@ -40,6 +45,7 @@ public class GoalFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 							 Bundle savedInstanceState) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		FragmentGoalBinding binding = DataBindingUtil.inflate(inflater, R.layout.fragment_goal, container, false);
 		binding.setFragment(this);
 		binding.setGoalScorer(goalScorer);
@@ -57,6 +63,8 @@ public class GoalFragment extends Fragment {
 	public void onCancelClicked(View view) {
 		Navigation.findNavController(view).navigateUp();
 =======
+=======
+>>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 		return null;
 	}
 
@@ -66,6 +74,9 @@ public class GoalFragment extends Fragment {
 
 	public void onCancelClicked(View view) {
 
+<<<<<<< HEAD
+>>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
+=======
 >>>>>>> 2cc6dd83fc75315d1b0454ba1857fe05c308706c
 	}
 }
